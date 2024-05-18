@@ -1,0 +1,24 @@
+This Project is developed for android devices
+
+Lnaguages used:
+Java, xml
+
+This Program implements second Problem described in the SKIDOS- Hackathon Problems
+"Mobile/Web application with speech & text Processing"
+
+This android app solves the problem as given in question and also demonstrated in video.
+This app is able to solve if given input is in the form:
+-- "What is fourteen divided two?"
+-- "What is one hundred divide by 2"....along with "add","plus","added","multiplied","multiply" etc..types of word operators
+-- "What is seventeen + 3"..along with -,/,-,* operators."
+-- "How much 345 + 5", similarly with -,/,*, operators."
+-- " tell me 14 gcd 56".. for greatest common devisor.
+-- " show me 98 lcm 56".. for Least common factor.
+-- This app is able to calculate more than 3 digit operands.
+-- Speech to text is also implemented in this project but instead of direct processing the given string,
+first it writes the sentence in text field and then if user want to change anything before processing he may do,
+and then process the string and give the result.
+
+NOTE: There could be any type of string but it must contain expressions and operands, and the operands 
+must be on left and right side of the arithmatic expression as give above examples.
+
